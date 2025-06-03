@@ -38,7 +38,6 @@ def serve_logo(request, filename):
 
 urlpatterns = [
     # API 엔드포인트 (api/ 아래로 통일)
-    path('', include('photo.urls')),
     path('', include(router.urls)),  # 🚀 `api/` 아래로 `router` 포함
     
     path('upload/', views.upload_photo, name='upload_photo'),
