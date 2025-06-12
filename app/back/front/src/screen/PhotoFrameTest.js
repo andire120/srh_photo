@@ -382,7 +382,7 @@ const PhotoFrameTest = ({ photos, frameType, onBack, title = "인생네컷" }) =
             </div>
           ) : ( // 로딩 중이거나 합성 실패 시 보여주는 부분 
             <div className="loading-preview">
-              <p>이미지 합성 중...</p>
+              <p>Image Loading...</p>
             </div>
           )}
           <button
@@ -390,18 +390,18 @@ const PhotoFrameTest = ({ photos, frameType, onBack, title = "인생네컷" }) =
             onClick={() => handleAction("print", "canvas")}
             disabled={isLoading}
           >
-            {isLoading ? "처리 중..." : "출력"}
+            {isLoading ? "Loading..." : "Print"}
           </button>
         </div>
         
         <div className="section2">
           <div className="qr-section">
-            <p className="gle">QR 코드를 스캔해 인생네컷을 저장하세요!</p>
+            <p className="gle">Scan the QR code to save your photo!</p>
             {isUploading ? (
-              <div className="qr-loading">업로드 중...</div>
+              <div className="qr-loading">Loading...</div>
             ) : qrCodeUrl ? (
               <div className="qr-image">
-                <img src={qrCodeUrl} alt="QR 코드" style={{ width: "100%", height: "100%" }}/>
+                <img src={qrCodeUrl} alt="QR Code" style={{ width: "100%", height: "100%" }}/>
               </div>
             ) : (
               <div className="qr-placeholder">QR</div>
@@ -409,7 +409,7 @@ const PhotoFrameTest = ({ photos, frameType, onBack, title = "인생네컷" }) =
           </div>
           
           <button className="back-button" onClick={onBack}>
-            처음으로 {'>'}
+            start {'>'}
           </button>
         </div>
 

@@ -1,5 +1,5 @@
 .result-container{
-    width: 100vw;
+    width: 110vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -75,7 +75,7 @@
 
 .qr-section{
     width: 90%;
-    height: 30%;
+    height: 20%;
     background-color: #f0f0f0;
     border-radius: 25px;
     margin-top: 30%;
@@ -85,6 +85,7 @@
     justify-content: center;
     font-size: large;
     font-weight: bold;
+    margin: 20%;
 }
 
 .gle{

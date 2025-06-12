@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.07451057.css",
-    "main.js": "/static/js/main.18be1e26.js",
+    "main.css": "/static/css/main.f726208b.css",
+    "main.js": "/static/js/main.8855144f.js",
     "static/js/453.80efc53e.chunk.js": "/static/js/453.80efc53e.chunk.js",
     "static/media/pixcel_frame.png": "/static/media/pixcel_frame.b3fa9000b0c2d751740a.png",
     "static/media/ohpan_frame.png": "/static/media/ohpan_frame.99e9948d41de70f67901.png",
@@ -11,12 +11,12 @@
     "static/media/Tienne-Regular.ttf": "/static/media/Tienne-Regular.d8ca441187487f41f17c.ttf",
     "static/media/Tienne-Bold.ttf": "/static/media/Tienne-Bold.25d59ff1114e88512221.ttf",
     "index.html": "/index.html",
-    "main.07451057.css.map": "/static/css/main.07451057.css.map",
-    "main.18be1e26.js.map": "/static/js/main.18be1e26.js.map",
+    "main.f726208b.css.map": "/static/css/main.f726208b.css.map",
+    "main.8855144f.js.map": "/static/js/main.8855144f.js.map",
     "453.80efc53e.chunk.js.map": "/static/js/453.80efc53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07451057.css",
-    "static/js/main.18be1e26.js"
+    "static/css/main.f726208b.css",
+    "static/js/main.8855144f.js"
   ]
 }
