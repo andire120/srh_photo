@@ -144,7 +144,7 @@ const WebcamCapture = ({ addPhoto, photoCount, clearPhoto }) => {
 
   return (
     <div className="webcam-container">
-      <img src={`${process.env.PUBLIC_URL}/camera-frame1.png`} className="camera-frame" alt="카메라 프레임"/>
+      <img src={`${process.env.PUBLIC_URL}/camera-frames.png`} className="camera-frame" alt="카메라 프레임"/>
       <Webcam
         audio={false}                 // 오디오 캡처 비활성화
         ref={webcamRef}               // 웹캠 참조 설정 (스크린샷 촬영에 사용)
@@ -152,7 +152,7 @@ const WebcamCapture = ({ addPhoto, photoCount, clearPhoto }) => {
         videoConstraints={{           // 비디오 설정
           deviceId: deviceId,         // 사용할 카메라 장치 ID
           width: 960,                 // 비디오 너비
-          height: 1280,               // 비디오 높이
+          height: 1000,               // 비디오 높이1280
         }}
         className="webcam"            // CSS 클래스 적용
       />
