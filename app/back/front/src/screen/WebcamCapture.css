@@ -15,18 +15,18 @@
 
 .camera-frame {
   width: 100%;
-  height: 100%;
+  height: 78%;
   position: absolute;
   z-index: 2;
 }
 
 /* .webcam 설정을 조정하여 화면에 맞게 표시 */
 .webcam {
-  width: 70%; /* 웹캠의 너비 조정 */
-  height: 60%; /* 웹캠의 높이 조정 */
+  width: 100%; /* 웹캠의 너비 조정 */
+  height: 100%; /* 웹캠의 높이 조정 */
   transform: scaleX(-1);
   object-fit: contain; /* 비율 유지하며 컨테이너에 맞춤 */
-  margin-bottom: 5%;
+  margin-bottom: 15%;
   z-index: 1;
 }
 
@@ -36,17 +36,17 @@
   top: 45%;
   left: 50%; /* 수평 중앙 */
   transform: translate(-45%, -50%);
-  font-size: 250px; /* 타이머 크기 */
-  color: #3f3f3f; /* 타이머 색상 */
+  font-size: 450px; /* 타이머 크기 */
+  color: #ffffff; /* 타이머 색상 */
   font-weight: bold; /* 두껍게 표시 */
   font-family: EF_jejudoldam;
   z-index: 2;
-  opacity: 30%;
+  opacity: 40%;
 }
 
 /* 컨트롤 패널의 배치 설정 */
 .controls {
-  margin-top: 28%;
+  margin-top: 90%;
   text-align: center; /* 텍스트와 아이콘 중앙 정렬 */
   position: absolute;
   z-index: 2;
@@ -55,7 +55,6 @@
 
 /* 사진 찍은 개수와 관련된 텍스트 스타일 */
 .controls p {
-  margin: 20px 0;
   font-size: 30px;
   font-family: Tienne-Regular;
   color: black; /* 텍스트 색상 */
@@ -75,9 +74,9 @@
   align-items: center; /* 수직 중앙 정렬 */
   justify-content: center; /* 수평 중앙 정렬 */
   transition: background-color 0.3s, transform 0.3s;
-  width: auto; 
+  width: 70vw; 
   max-width: 100%; /* 버튼 크기가 화면을 넘지 않도록 설정 */
-  margin-top: 37%;
+  margin-top: 130%;
   position: absolute;
   z-index: 2;
 

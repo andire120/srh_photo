@@ -102,14 +102,14 @@ const DownloadButton = () => {
         onClick={() => captureImage("print")}
         disabled={isLoading}
       >
-        {isLoading ? "처리 중..." : "출력"}
+        {isLoading ? "Loading..." : "Print"}
       </button>
       <button
         className="download-button"
         onClick={() => captureImage("download")}
         disabled={isLoading}
       >
-        {isLoading ? "처리 중..." : "다운로드"}
+        {isLoading ? "Loading..." : "Download"}
       </button>
     </div>
   );

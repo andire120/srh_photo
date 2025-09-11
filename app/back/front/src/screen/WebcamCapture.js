@@ -144,7 +144,7 @@ const WebcamCapture = ({ addPhoto, photoCount, clearPhoto }) => {
 
   return (
     <div className="webcam-container">
-      <img src={`${process.env.PUBLIC_URL}/camera-frame.png`} className="camera-frame" alt="카메라 프레임"/>
+      <img src={`${process.env.PUBLIC_URL}/camera-frame1.png`} className="camera-frame" alt="카메라 프레임"/>
       <Webcam
         audio={false}                 // 오디오 캡처 비활성화
         ref={webcamRef}               // 웹캠 참조 설정 (스크린샷 촬영에 사용)
