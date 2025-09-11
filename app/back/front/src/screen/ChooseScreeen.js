@@ -12,7 +12,7 @@ const ChooseScreen = ({ selectFrame }) => {
     if (selectedFrame) {
       selectFrame(selectedFrame); // 선택된 프레임을 부모 컴포넌트에 전달
     } else {
-      alert("프레임을 선택해주세요.");
+      alert("Choose Frame");
     }
   };
 
@@ -65,7 +65,7 @@ const ChooseScreen = ({ selectFrame }) => {
       </div>
       
       <button className="next-button" onClick={handleNext}>
-        촬영하기
+        Let's Capture
       </button>
     </div>
   );

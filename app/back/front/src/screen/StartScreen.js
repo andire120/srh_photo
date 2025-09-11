@@ -20,7 +20,7 @@ const StartScreen = ({ onStart }) => {
       
       </div>
       
-      <button className="start-button" onClick={onStart}>시작하기</button>
+      <button className="start-button" onClick={onStart}>Start</button>
     </div>
   );
 };
